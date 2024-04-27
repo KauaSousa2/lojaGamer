@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Planet</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav style="background: black;" class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold"><img style="width: 550px;" src="img/Game-Planet.png" alt=""></a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-300">Produtos</a></li>
+                <li><a href="#" class="hover:text-gray-300">Sobre</a></li>
+                <li><a href="#" class="hover:text-gray-300">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="bg-gray-200 py-8">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-2">Bem-vindo à Game Planet</h1>
+            <p class="text-lg">Aqui você encontra os melhores jogos da franquia PlayStation.</p>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section class="container mx-auto py-8">
+        <h2 class="text-2xl font-bold mb-4">Jogos para PlayStation 2</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <!-- Produto 1 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="img/granturismo.png" alt="Produto 1" class="w-full mb-2">
+                <h3 class="text-lg font-bold mb-2">Gran Turismo 4</h3>
+                <p class="text-gray-700 mb-2">Descrição do Produto 1.</p>
+                <span class="text-xl font-bold text-green-600">$49.99</span>
+                <button class="mt-4 bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Produto 2 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="img/mortal.png" alt="Produto 2" class="w-full mb-2">
+                <h3 class="text-lg font-bold mb-2">Mortal Kombat Armageddon</h3>
+                <p class="text-gray-700 mb-2">Descrição do Produto 2.</p>
+                <span class="text-xl font-bold text-green-600">$40.50</span>
+                <button class="mt-4 bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Produto 3 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="img/motogp.png" alt="Produto 3" class="w-full mb-2">
+                <h3 class="text-lg font-bold mb-2">Moto GP4</h3>
+                <p class="text-gray-700 mb-2">Descrição do Produto 3.</p>
+                <span class="text-xl font-bold text-green-600">$35.50</span>
+                <button class="mt-4 bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Produto 4 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="img/resident.png" alt="Produto 3" class="w-full mb-2">
+                <h3 class="text-lg font-bold mb-2">Resident Evil 4</h3>
+                <p class="text-gray-700 mb-2">Descrição do Produto 4.</p>
+                <span class="text-xl font-bold text-green-600">$50.00</span>
+                <button class="mt-4 bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer style="background: black;" class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Game Planet. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
